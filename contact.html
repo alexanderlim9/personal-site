@@ -1,0 +1,50 @@
+<!--
+<?php
+if($_POST["message"]) {
+    mail("alexmlim7@hotmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alexander Lim</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>        
+        <nav>         
+            <ul>
+                <li><a href=about.html>About</a></li>
+                <li><a href=index.html>Projects</a></li>
+                <li><a href=resume.html>Resume</a></li>
+                <li><a href=contact.html>Contact</a></li>
+            </ul>
+        </nav>
+        <div class = "container">
+            <div class = "row">
+                <div class = "one-half column">
+                    <h2 class = "parent">Contact me!</h2>
+                    <p>
+                        Don't hesitate to reach out with any questions you have about me, my work, or anything else really.
+                    </p>
+                </div>
+                <div class = "one-half column">
+                    <form>
+                        <label>Name</label>
+                        <input type="text">
+                        <label>Email</label>
+                        <input type="email">
+                        <label>Message</label>
+                        <textarea></textarea>
+                        <p>
+                            <button>Send</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
