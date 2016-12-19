@@ -1,13 +1,16 @@
 
+/*HEADER--------------------------------------------------------------*/
+
 h1 {
-    font-family: "georgia";
+    font-family: "Adobe Caslon Pro";
     margin-bottom: 0rem;
+    font-weight: 800;
 }
 
 h2 {
-    font-family: "georgia";
+    font-family: "Adobe Caslon Pro";
     font-size: 28px;
-    font-weight:700;
+    font-weight: 600;
 }
 
 .landh1 {
@@ -27,6 +30,9 @@ h2 {
     margin-top: -10px;
 }
 
+/*NAVBAR--------------------------------------------------------------*/
+
+
 nav {
     margin-top: 10px;
     margin-bottom: 70px;
@@ -42,12 +48,18 @@ li {
     margin: 0 8px;
 }
 
+/*LINKS--------------------------------------------------------------*/
+
+
 a {
     font-weight: 400;
     text-decoration: none;
     color: black;
     
 }
+
+/*BODY/TEXT--------------------------------------------------------------*/
+
 
 body { 
     font-family: gillsans;
@@ -57,22 +69,19 @@ p {
     margin-bottom:10px;
 }
 
-/*
-.resume {
-    margin: auto 20% auto 20%;
+.centerText {
+    text-align: center;
 }
 
-.bio {
-    max-width: 620px;
-    margin: 5%;
-    float:right;
-    display: inline-block;
+.sideCaption {
+    margin-top: 20%;
 }
 
-.right {
-    display: inline-block;
+#jfksite {
+    text-decoration: underline;
 }
-*/
+
+/*IMAGES--------------------------------------------------------------*/
 
 img {
     width: 90%;
@@ -88,6 +97,10 @@ img {
     position: fixed;
 }
 
+.cover:hover {
+    opacity: .5;
+}
+
 .gallery {
     position: fixed;
 }
@@ -101,21 +114,8 @@ img {
     max-width: 400px;
 }
 
-.centerText {
-    text-align: center;
-}
+/*MARGINS--------------------------------------------------------------*/
 
-.sideCaption {
-    margin-top: 20%;
-}
-
-#jfksite {
-    text-decoration: underline;
-}
-
-.cover:hover {
-    opacity: .5;
-}
 
 .marginBot {
     margin-bottom: 100px;
@@ -124,6 +124,8 @@ img {
 .marginTop {
     margin-top: 150px;
 }
+
+/*FORMS--------------------------------------------------------------*/
 
 textarea {
     width: 100%;
