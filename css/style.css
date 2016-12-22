@@ -1,6 +1,22 @@
 
-/*HEADER--------------------------------------------------------------*/
 
+/*TABLE OF CONTENTS
+--------------------------------------------------------------
+- HEADER
+- BODY/TEXT
+- NAVBAR
+- FOOTER
+- MARGINS
+- LINKS
+- FORMS
+- MEDIA QUERIES
+
+
+--------------------------------------------------------------
+*/
+
+/*HEADER
+--------------------------------------------------------------*/
 h1 {
     font-family: "Adobe Caslon Pro";
     margin-bottom: 0rem;
@@ -14,10 +30,10 @@ h2 {
 }
 
 .landh1 {
-    font-size: 75px;
+    font-size: 36px;
     font-weight: 600;
     margin-top: 250px;
-    text-align: center;
+    text-align: left;
 }
 
 .landh2 {
@@ -26,21 +42,57 @@ h2 {
     font-weight: 400;
     font-style: italic;
     color: #999;
-    text-align: center;
+    text-align: left;
     margin-top: -10px;
 }
 
-/*NAVBAR--------------------------------------------------------------*/
+/*BODY/TEXT
+--------------------------------------------------------------*/
+body { 
+    font-family: "Adobe Caslon Pro";
+    font-size: 1.7em;
+    line-height: 1.4; /* decreased from 1.6*/
+}
 
+p {margin-bottom:10px;}
 
+.sideCaption {margin-top: 20%;}
+
+#jfksite {text-decoration: underline;}
+
+/*IMAGES
+--------------------------------------------------------------*/
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#headshot {
+    width: 350px;
+    height: 350px;
+    margin-top: 5%;
+}
+
+.circle { 
+/*    height = width;*/
+    border-radius: 50%; 
+}
+
+.cover:hover {opacity: .5;}
+
+.project {
+    margin-left: 50%;
+    margin-right: 12%;
+}
+
+/*NAVBAR
+--------------------------------------------------------------*/
 nav {
     margin-top: 10px;
     margin-bottom: 70px;
 }
 
-ul {
-    padding: 5px;
-}
+ul {padding: 5px;}
 
 li {
     display: inline-block;
@@ -48,75 +100,12 @@ li {
     margin: 0 8px;
 }
 
-/*LINKS--------------------------------------------------------------*/
+/*FOOTER
+--------------------------------------------------------------*/
 
 
-a {
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
-    
-}
-
-/*BODY/TEXT--------------------------------------------------------------*/
-
-
-body { 
-    font-family: gillsans;
-}
-
-p {
-    margin-bottom:10px;
-}
-
-.centerText {
-    text-align: center;
-}
-
-.sideCaption {
-    margin-top: 20%;
-}
-
-#jfksite {
-    text-decoration: underline;
-}
-
-/*IMAGES--------------------------------------------------------------*/
-
-img {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.headshot {
-    max-width: 40%;
-    width: 400px;
-    min-width: 300px;
-    margin-left: 5%;
-    position: fixed;
-}
-
-.cover:hover {
-    opacity: .5;
-}
-
-.gallery {
-    position: fixed;
-}
-
-.project {
-    margin-left: 50%;
-    margin-right: 12%;
-}
-
-#hs {
-    max-width: 400px;
-}
-
-/*MARGINS--------------------------------------------------------------*/
-
-
+/*MARGINS
+--------------------------------------------------------------*/
 .marginBot {
     margin-bottom: 100px;
 }
@@ -125,10 +114,22 @@ img {
     margin-top: 150px;
 }
 
-/*FORMS--------------------------------------------------------------*/
+/*LINKS
+--------------------------------------------------------------*/
+a {
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
 
+/*FORMS--------------------------------------------------------------*/
 textarea {
     width: 100%;
     min-width: 150px;
     height: 150px;
 }
+
+/*MEDIA QUERIES
+--------------------------------------------------------------*/
+/* Mobile */
+@media (max-width: 479px) {}
